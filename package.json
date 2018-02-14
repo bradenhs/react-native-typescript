@@ -4,10 +4,10 @@
   "private": true,
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
-    "start": "react-native-scripts start --transformer node_modules/react-native-typescript-transformer",
-    "eject": "react-native-scripts eject",
-    "android": "react-native-scripts android --transformer node_modules/react-native-typescript-transformer",
-    "ios": "react-native-scripts ios"
+    "start": "react-native-scripts start",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "react-native-scripts help"
   },
   "dependencies": {
     "expo": "^25.0.0",

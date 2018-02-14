@@ -5,7 +5,7 @@
     "esModuleInterop": true,
     "baseUrl": "./",
     "paths": {
-      "~/*": ["*"]
+      "~/*": ["src/*"]
     },
     "downlevelIteration": true,
     "experimentalDecorators": true,
