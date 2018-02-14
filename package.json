@@ -1,0 +1,26 @@
+{
+  "name": "test-app",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start --transformer node_modules/react-native-typescript-transformer",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android --transformer node_modules/react-native-typescript-transformer",
+    "ios": "react-native-scripts ios"
+  },
+  "dependencies": {
+    "expo": "^25.0.0",
+    "react": "16.2.0",
+    "react-native": "0.52.0",
+    "tslib": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.38",
+    "@types/react-native": "^0.52.12",
+    "prettier": "^1.10.2",
+    "react-native-scripts": "1.11.1",
+    "react-native-typescript-transformer": "^1.2.3",
+    "typescript": "^2.7.1"
+  }
+}
